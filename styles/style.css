@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 15px rgba(255, 215, 0, 0.7);
+
+
+}
+
+.title__time {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 15px rgba(255, 215, 0, 0.7);
+
+}
+
+.input {
+    max-width: 200px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.7);
+
+}
+
+.btn {
+    background: green;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 500ms;
+    border-radius: 30px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: white;
+    color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.title__time {
+    color: white;
+}
+
+.game__box {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(38, 35, 35);
+    box-shadow: 0px 0px 30px white;
+    border-radius: 30px;
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.triangle {
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.result{
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 15px rgba(255, 215, 0, 0.7);
+
+}
