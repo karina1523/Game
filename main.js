@@ -60,7 +60,9 @@ function createBall() {
         ball.style.height = size + 'px'
         ball.style.background = `rgb(${random(0, 255)}, ${random(0, 255)}, ${random(0, 255)})`
         ball.style.transition = "transform 0.2s ease-in-out";
-        ball.style.boxShadow = "0px 5px 15px rgba(0, 0, 0, 0.3)";
+        ball.style.boxShadow = " inset 0px 5px 15px rgba(0, 0, 0, 0.3)";
+        ball.style.background = 'rgba(0, 0, 0, 0.1);'
+
 
 
         let params = gameBox.getBoundingClientRect()
@@ -82,7 +84,8 @@ function createBall() {
         ball.style.background = `rgb(${random(0, 255)}, ${random(0, 255)}, ${random(0, 255)})`;
         ball.style.clipPath = "polygon(50% 0%, 0% 100%, 100% 100%)";
         ball.style.transition = "transform 0.2s ease-in-out";
-        ball.style.boxShadow = "0px 5px 15px rgba(0, 0, 0, 0.3)";
+        ball.style.boxShadow = " inset 0px 5px 15px rgba(0, 0, 0, 0.3)";
+        ball.style.background = 'rgba(0, 0, 0, 0.1);'
 
         let params = gameBox.getBoundingClientRect()
 
@@ -102,7 +105,9 @@ function createBall() {
         ball.style.background = `rgb(${random(0, 255)}, ${random(0, 255)}, ${random(0, 255)})`;
         ball.style.clipPath = "polygon(0 0, 100% 0, 100% 100%, 0% 100%)"
         ball.style.transition = "transform 0.2s ease-in-out";
-        ball.style.boxShadow = "0px 5px 15px rgba(0, 0, 0, 0.3)";
+        ball.style.boxShadow = " inset 0px 5px 15px rgba(0, 0, 0, 0.3)";
+        ball.style.background = 'rgba(0, 0, 0, 0.1);'
+
 
 
 
